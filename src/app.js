@@ -53,7 +53,7 @@ submitCityButton.addEventListener ('click', ()=>{
 })
 
 inputCity.addEventListener("keyup", waitUserInput(() => {
-    fetch('src/myJson.json')
+    fetch('src/worldCitiesList.json')
         .then(res => res.json())
         .then(data => {
             let cityObjectsArray = data.filter(places => places.name.toLowerCase().includes(inputCity.value.toLowerCase()));
@@ -64,7 +64,7 @@ inputCity.addEventListener("keyup", waitUserInput(() => {
 }, 500));
 
 inputCity.addEventListener('click', () =>{
-    fetch('src/myJson.json')
+    fetch('src/worldCitiesList.json')
         .then(res => res.json())
         .then(data => {
             let cityObjectsArray = data.filter(places => places.name.toLowerCase().includes(inputCity.value.toLowerCase()));
