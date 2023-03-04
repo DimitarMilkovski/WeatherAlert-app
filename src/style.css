@@ -1,0 +1,49 @@
+h1 {
+  padding: 2rem;
+  background-color: #CAE9FF;
+  margin-bottom: 0px;
+}
+
+
+.btn {
+  margin-left: 0.3rem;
+  background-color: white;
+  border: 2px solid rgb(48, 48, 247);
+  padding: 0.17rem 0.7rem;
+}
+
+#inputCity {
+
+  width: 15rem;
+}
+
+.dropdown-menu{
+  width: 15rem;
+}
+
+
+td {
+  text-align: center;
+}
+
+
+thead{
+  text-align: center;
+  
+}
+
+
+.table-dark {
+  margin-top: 0px;
+  --bs-table-bg: #3797f7;
+  --bs-table-striped-bg: #91e0ff;
+  --bs-table-striped-color: black;
+  border-color: #eef5fa;
+  color: white;
+}
+
+.imgSize{
+  width: 15rem;
+  height: 20rem;
+}
+
